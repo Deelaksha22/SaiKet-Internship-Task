@@ -7,29 +7,41 @@
 </head>
 <body>
 
-<div class="product">
-    <img src="headset.webp" alt="Product Image">
+<div class="container">
 
-    <h1>Wireless Headphones</h1>
-    <p class="price">₹1999</p>
-
-    <!-- ⭐ Ratings -->
-    <div class="rating">
-        ⭐⭐⭐⭐☆
+    <!-- Product Image -->
+    <div class="image-section">
+        <img src="headset.webp" alt="Product">
     </div>
 
-    <p>High-quality wireless headphones with noise cancellation.</p>
+    <!-- Product Details -->
+    <div class="details-section">
+        <h1>Wireless Headphones</h1>
 
-    <!-- 🛒 Quantity -->
-    <div class="quantity">
-        <button onclick="decrease()">-</button>
-        <span id="qty">1</span>
-        <button onclick="increase()">+</button>
+        <div class="rating">⭐⭐⭐⭐☆ (4.2)</div>
+
+        <p class="price">₹1999 <span class="old-price">₹2999</span></p>
+
+        <p class="description">
+            High-quality wireless headphones with noise cancellation and long battery life.
+        </p>
+
+        <!-- Quantity -->
+        <div class="quantity">
+            <button onclick="decrease()">-</button>
+            <span id="qty">1</span>
+            <button onclick="increase()">+</button>
+        </div>
+
+        <!-- Buttons -->
+        <button class="cart" onclick="addToCart()">Add to Cart</button>
+        <button class="buy">Buy Now</button>
+        <button class="wishlist" onclick="wishlist()">❤️</button>
     </div>
 
-    <!-- Buttons -->
-    <button onclick="addToCart()">Add to Cart</button>
-    <button onclick="wishlist()" class="wishlist">❤️ Wishlist</button>
+</div>
+
+<script src="script.js"></script>
 </div>
 </body>
 </html>

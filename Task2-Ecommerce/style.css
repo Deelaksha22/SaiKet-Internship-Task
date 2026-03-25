@@ -1,10 +1,78 @@
 body {
+    margin: 0;
     font-family: Arial;
-    background: #f4f4f4;
+    background: #f3f3f3;
+}
+
+/* Layout */
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 40px;
+    gap: 40px;
+}
+
+/* Image */
+.image-section img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Details */
+.details-section {
+    max-width: 400px;
+}
+
+/* Rating */
+.rating {
+    color: orange;
+    margin: 10px 0;
+}
+
+/* Price */
+.price {
+    font-size: 24px;
+    color: #7f311e;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Description */
+.description {
+    margin: 15px 0;
+}
+
+/* Quantity */
+.quantity button {
+    padding: 5px 10px;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart {
+    background: rgb(181, 131, 38);
+}
+
+.buy {
+    background: #ff9900;
+}
+
+.wishlist {
+    background: rgb(172, 110, 110);
+    color: white;
 }
 
 .product {
@@ -49,9 +117,4 @@ button:hover {
 .quantity button {
     padding: 5px 10px;
     font-size: 16px;
-}
-
-.wishlist {
-    background: red;
-    margin-top: 10px;
 }

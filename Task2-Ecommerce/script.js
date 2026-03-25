@@ -1,6 +1,3 @@
-function addToCart() {
-    alert("Product added to cart!");
-}
 let count = 1;
 
 function increase() {
