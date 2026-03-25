@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #ede7f6;
+}
+
+/* Centering */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+/* Card */
+.form-card {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h2 {
+    margin: 0;
+}
+
+.subtitle {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Input style */
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: transparent;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    border-bottom: 2px solid #673ab7;
+}
+
+/* Inline */
+.inline {
+    display: flex;
+    gap: 15px;
+}
+
+.inline label {
+    font-weight: normal;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #673ab7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #5e35b1;
+}

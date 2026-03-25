@@ -1,0 +1,55 @@
+<body>
+
+<div class="form-wrapper">
+    <div class="form-card">
+        <h2>Contact Form</h2>
+        <p class="subtitle">Fill the details below</p>
+
+        <form onsubmit="return validateForm()">
+
+            <div class="input-group">
+                <label>Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- Gender -->
+            <div class="input-group">
+                <label>Gender</label>
+                <div class="inline">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="input-group">
+                <label>Skills</label>
+                <div class="inline">
+                    <label><input type="checkbox"> HTML</label>
+                    <label><input type="checkbox"> CSS</label>
+                    <label><input type="checkbox"> JavaScript</label>
+                </div>
+            </div>
+
+            <!-- Dropdown -->
+            <div class="input-group">
+                <label>Course</label>
+                <select>
+                    <option>Web Development</option>
+                    <option>Data Science</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
