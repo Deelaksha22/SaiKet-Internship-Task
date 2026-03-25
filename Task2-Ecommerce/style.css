@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: green;
+    font-size: 20px;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkorange;
+}
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.quantity {
+    margin: 10px 0;
+}
+
+.quantity button {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.wishlist {
+    background: red;
+    margin-top: 10px;
+}

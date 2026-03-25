@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-commerce Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="product">
+    <img src="headset.webp" alt="Product Image">
+
+    <h1>Wireless Headphones</h1>
+    <p class="price">₹1999</p>
+
+    <!-- ⭐ Ratings -->
+    <div class="rating">
+        ⭐⭐⭐⭐☆
+    </div>
+
+    <p>High-quality wireless headphones with noise cancellation.</p>
+
+    <!-- 🛒 Quantity -->
+    <div class="quantity">
+        <button onclick="decrease()">-</button>
+        <span id="qty">1</span>
+        <button onclick="increase()">+</button>
+    </div>
+
+    <!-- Buttons -->
+    <button onclick="addToCart()">Add to Cart</button>
+    <button onclick="wishlist()" class="wishlist">❤️ Wishlist</button>
+</div>
+</body>
+</html>
