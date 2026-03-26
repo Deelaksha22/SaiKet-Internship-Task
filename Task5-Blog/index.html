@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="checkout-container">
+
+  <!-- LEFT: ADDRESS + PAYMENT -->
+  <div class="checkout-left">
+
+    <h2>Shipping Address</h2>
+    <form class="address-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Phone Number" required>
+      <input type="text" placeholder="Address" required>
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="Pincode" required>
+    </form>
+
+    <h2>Payment Method</h2>
+    <div class="payment-method">
+      <label><input type="radio" name="payment"> UPI</label>
+      <label><input type="radio" name="payment"> Credit/Debit Card</label>
+      <label><input type="radio" name="payment"> Cash on Delivery</label>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: ORDER SUMMARY -->
+  <div class="checkout-right">
+
+    <h2>Order Summary</h2>
+
+    <div class="order-item">
+      <p>Product 1</p>
+      <span>₹999</span>
+    </div>
+
+    <div class="order-item">
+      <p>Product 2</p>
+      <span>₹499</span>
+    </div>
+
+    <hr>
+
+    <div class="total">
+      <h3>Total</h3>
+      <h3>₹1498</h3>
+    </div>
+
+    <button class="place-order">Place Order</button>
+
+  </div>
+
+</div>
+
+</body>
+</html>

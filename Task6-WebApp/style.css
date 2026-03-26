@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box input {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.form-box button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-box span {
+  color: blue;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-container">
+
+  <!-- LOGIN FORM -->
+  <div class="form-box" id="loginBox">
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p>Don't have an account? <span onclick="showSignup()">Signup</span></p>
+  </div>
+
+  <!-- SIGNUP FORM -->
+  <div class="form-box hidden" id="signupBox">
+    <h2>Signup</h2>
+    <input type="text" id="signupName" placeholder="Full Name">
+    <input type="email" id="signupEmail" placeholder="Email">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button onclick="signup()">Signup</button>
+    <p>Already have an account? <span onclick="showLogin()">Login</span></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
