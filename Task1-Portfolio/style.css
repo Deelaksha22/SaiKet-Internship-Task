@@ -1,77 +1,53 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: Arial;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background: #f4f4f4;
 }
 
+/* Header */
 header {
-    color: rgb(1, 0, 0);
-    text-align: center;
-    padding: 20px;
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-
-}
-
-nav {
-    background: #444;
-    text-align: center;
-    padding: 10px;
-}
-
-nav a {
+    background: #333;
     color: white;
-    margin: 10px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: yellow;
-}
-
-section {
-    background: rgba(255, 255, 255, 0.9);
-    margin: 20px;
+    text-align: center;
     padding: 20px;
-    border-radius: 15px;
-    backdrop-filter: blur(10px);
 }
 
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Skills */
+.skills {
+    padding: 20px;
+    background: #eee;
+}
+
+/* Projects */
+.projects {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    background: #222;
+    background: #333;
     color: white;
     padding: 10px;
-}
-header img {
-    border-radius: 50%;
-    margin-top: 10px;
-}
-.socials a {
-    font-size: 30px;
-    margin: 10px;
-    color: #333;
-}
-
-.socials a:hover {
-    color: #0077b5;
-}
-section:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
-}
-button {
-    background: #0077b5;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: black;
 }
