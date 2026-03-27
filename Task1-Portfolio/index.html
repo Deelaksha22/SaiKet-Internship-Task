@@ -1,48 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-
-    <!-- Correct CSS Link -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deelaksha | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Navbar -->
 <header>
-    <h1>Deelaksha NJ</h1>
-    <p>Web Developer | Student</p>
+  <nav class="navbar">
+    <h2 class="logo">Deelaksha</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section class="about">
-    <img src="photo.jpeg" alt="Profile Photo">
-    <div>
-        <h2>About Me</h2>
-        <p>I am a passionate developer learning web development and building real-world projects.</p>
-    </div>
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span>Deelaksha</span></h1>
+    <p>Aspiring Developer | CSE Student</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+  <div class="hero-img">
+    <img src="photo.jpeg" alt="Profile">
+  </div>
 </section>
 
-<section class="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>C++</li>
-    </ul>
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm a Computer Science student passionate about web development,
+    problem solving, and building real-world applications.
+  </p>
 </section>
 
-<section class="projects">
-    <h2>Projects</h2>
+<!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+    
     <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>My personal portfolio project</p>
+      <h3>Portfolio Website</h3>
+      <p>Personal responsive portfolio using HTML & CSS</p>
     </div>
+
+    <div class="card">
+      <h3>E-commerce Page</h3>
+      <p>Amazon-style product UI with cart system</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
 </section>
 
 <footer>
-    <p>© 2026 Deelaksha NJ</p>
+  <p>© 2026 Deelaksha | All Rights Reserved</p>
 </footer>
 
 </body>

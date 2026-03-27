@@ -1,53 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: #f4f4f4;
+  background: #0f172a;
+  color: #fff;
 }
 
-/* Header */
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #020617;
 }
 
-/* About Section */
-.about {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    background: white;
+.nav-links {
+  display: flex;
+  gap: 20px;
 }
 
-.about img {
-    width: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-/* Skills */
-.skills {
-    padding: 20px;
-    background: #eee;
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+.hero-text h1 span {
+  color: #38bdf8;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+  text-align: center;
 }
 
 /* Projects */
-.projects {
-    padding: 20px;
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
-    background: white;
-    padding: 15px;
-    margin-top: 10px;
-    border-radius: 10px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    background: #333;
-    color: white;
-    padding: 10px;
+  padding: 20px;
+  background: #020617;
 }
